@@ -1,0 +1,446 @@
+@font-face {
+  font-family: HelveticaNeue-regular;
+  src: url(../fonts/helvetica-neue/HelveticaNeue-regular.ttf);
+}
+@font-face {
+  font-family: HelveticaNeue-Bold;
+  src: url(../fonts/helvetica-neue/HelveticaNeue-Bold.ttf);
+}
+@font-face {
+  font-family: HelveticaNeue-medium;
+  src: url(../fonts/helvetica-neue/HelveticaNeue-medium.ttf);
+}
+@font-face {
+  font-family: HelveticaNeue-light;
+  src: url(../fonts/helvetica-neue/HelveticaNeue-light.ttf);
+}
+@font-face {
+  font-family: HelveticaNeue-Italic;
+  src: url(../fonts/helvetica-neue/HelveticaNeue-Italic.ttf);
+}
+@font-face {
+  font-family: HelveticaNeue-CondensedObl;
+  src: url(../fonts/helvetica-neue/HelveticaNeue-CondensedObl.ttf);
+}
+.hero{
+    background-color: #000;
+	overflow:hidden
+}
+.w-i {
+  max-width: 59em;
+}
+.spa{
+	margin-bottom:25px;
+	color: white;
+}
+.wl-footer{
+	max-width:1140px;
+    PADDING-LEFT: 15PX;
+}
+.padd-colum-2{
+    padding-bottom: 100px;
+    overflow: hidden;
+    height: 100%;
+    background-image: url(../image/hero_image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#header-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+	padding:10px 0 0;
+}
+
+.txt-w h1{
+	color:#fff;
+	text-align:left;
+	font-weight:bold;
+}
+.txt-w p{
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.85;    
+	letter-spacing: .3px;
+}
+.padd_b{
+	line-height: 28px;
+	padding-bottom:20px;
+    font-size: 18px;
+}
+.cur{
+    line-height: 20px;
+	font-style: italic;
+    font-size: 15px;
+}
+.nav-link{
+	color:#fff !important;
+}
+.nav .nav-link:hover{
+	color:#005E9B !important;
+}
+.padd-colum-1{
+	padding:92px 20px 92px 0;
+}
+::placeholder { color: #fff; font-family: "Helvetica Neue medium" ;}
+:-ms-input-placeholder { color: #fff; } /* IE 10+ */
+::-webkit-input-placeholder { color: #fff; } /* WebKit */
+::-moz-placeholder { color: #fff;font-family: "Helvetica Neue medium" ; } /* Firefox 19+ */
+.w-i .email{
+    background-color: #ffffff1f !important;
+    border: 0px !important;
+	border-radius: 0px !important;
+	height: 54px !important;
+}
+.w-i .button{
+    background-color: #004674!important;
+    color: #fff!important;
+    border: 0px !important;
+    height: 54px;
+	border-radius: 0px !important;
+	width: 100px;
+}
+.container .w-i .button:hover, footer .footer-1 .button:hover{
+    background-color: #005E9B!important;
+}
+.input-group-bt{
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.cont-white{
+	background-color:#fff;
+	padding:90px 0;
+}
+.block_two{
+	padding:20px 0;
+}
+.col-md-8, .col-md-6{
+	float:left;
+}
+.f-rig{
+	float:right;
+}
+.title_whi{
+	color:#272D3A;
+	padding-bottom: 26px;
+	font-size:25px;
+	font-family: 'Poppins', sans-serif;
+	    line-height: 30px;
+}
+.list dd {
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+}
+.padd-bt-1{
+    padding: 40px 0px;
+}
+.center{
+	text-align:center;
+}
+.img-w-100{
+	width:100%;
+	padding-bottom: 20px;
+}
+.f-rig img {
+    width: 100%;
+}
+
+.block_three{
+    padding: 30px 0;
+}
+
+.desk-not{
+	display:none;
+}
+.footer-1{
+	background-color:black;
+	padding:30px 0 50px;
+}
+h2.spa{
+    font-size: 20px;
+    opacity: 70%;
+    font-weight: 400;
+}
+.w-footer{
+  max-width: 40em;
+}
+.w-footer-2{
+    max-width: 35em;    
+	padding: 40px 0;
+}
+.lead-2{
+    color: #fff;
+    font-size: 15px;
+    width: 75%;
+    opacity: 0.85;
+	letter-spacing: .3px;
+	line-height:20px;
+}
+.logo{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #979797;
+}
+.footer-1 h1{
+	color:#fff;
+	font-size: 35px;
+    padding-top: 10px;
+	font-weight: bold;
+}
+.title_t .footer-1 h1{
+    font-size: 43px !important;
+}
+.footer-1 .email{
+    background-color: #ffffff1f !important;
+    border: 0px !important;
+	border-radius: 0px !important;
+	height: 65px !important;
+}
+.footer-1 .button{
+    background-color: #004674!important;
+    color: #fff!important;
+    border: 0px !important;
+    height: 65px;
+	border-radius: 0px !important;
+	width: 150px;
+}
+.text-link{
+	color:#272D3A;
+	font-weight:600;
+	text-align:center;
+	font-size:18px;
+	text-decoration:none;
+	font-family: 'Poppins', sans-serif;
+}
+.text-link:hover{
+	color:#005E9B !important;
+}
+.padd_20{
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.desk-none, .tablet-yes, .mobile{
+	display:none;
+}
+@media only screen and (max-width: 991px) {
+.footer-1 .button{
+    margin-top: 15px;
+}
+.padd-colum-1{
+	padding:0px 0 60px 0;
+}
+.tablet-not{
+	display:none;
+}
+
+.cont-white {
+    padding: 20px 0;
+}
+footer .input-group {
+    display: block;
+    flex-wrap: initial;
+}
+footer-1 h1 {
+    color: #fff;
+    font-size: 41px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+footer .email, footer button {
+    width: 100% !important;
+}
+}
+@media (max-width: 991px) and (min-width: 768px){
+.padd-colum-2{
+	margin-top:40px;
+}
+.lead-2 {
+    width: 87%;
+}
+.mobil-not{
+	display:none;
+}
+.tablet-yes, .desk-none{
+	display:block !important;
+}
+.wid-mob-{
+    max-width: 510px  !important;
+}
+.padd-bt-1 {
+    padding: 67px 0px 0;
+}
+.padd-bt-2{
+    padding: 10px 0px 0;
+}
+.wid-mob-, .w-footer, .w-footer-2{
+    padding-left: 12px;
+	padding-right:12px;
+}
+}
+@media (max-width: 991px) and (min-width: 600px){
+.padd-colum-1{
+    margin-top: -86px;
+}
+.padd-colum-2{
+    height: 635px;
+    background-image: url(../image/hero_image-tab.png);
+}
+.footer-1 h1 {
+    font-size: 41px !important;
+}
+}
+@media (max-width: 675px) and (min-width: 600px){
+.padd-colum-2 {
+    height: 554px!important;
+}
+}
+@media (max-width: 767px) and (min-width: 576px){
+.wid-mob- {
+    max-width: 540px !important;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.cur {
+    padding-bottom: 15px;
+}
+.tel-email{
+    border-top: 1px solid #979797;
+    padding-top: 25px;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Helvetica Neue medium" !important;
+    font-size: 16px;
+    line-height: 35px;
+}
+.wid-mob-, .w-footer, .w-footer-2{
+    padding-left: 30px;
+	padding-right:30px;
+}
+.pdd-logo{
+    padding: 15px;
+}
+#header-inner {
+    padding: 0px;
+}
+.lead-2 {
+    width: 100%;
+}
+.f-rig img {
+    width: auto !important;
+} 
+.desk-not{
+	display:block !important;
+}
+.mobil-not{
+	display:none;
+}
+.padd-bt-1 {
+    padding-bottom: 0px;
+}
+
+.mobile{
+	display:block !important;
+}
+.cont-butt{
+	position:absolute;
+	top:9px;
+	right:0px;
+}
+.butt-contact{
+    background-color: #004674!important;
+    color: #fff!important;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+}
+@media only screen and (max-width: 599px) {
+.footer-1 h1{
+  font-family: "Helvetica Neue medium" !important;
+  font-weight: 500;
+}
+.w-i .button{
+    margin-top: 15px;
+}
+.w-i .input-group {
+    display: block;
+    flex-wrap: initial;
+}
+.w-i .email, .w-i button {
+    width: 100% !important;
+}
+.padd-colum-1{
+    margin-top: -86px;
+}
+.padd-colum-2{
+    background-image: url(../image/hero_image-mob.png);
+    background-size: contain;
+}
+}
+@media (max-width: 599px) and (min-width: 550px){
+.padd-colum-2 {
+    height: 554px;
+}
+}
+@media (max-width: 549px) and (min-width: 500px){
+.padd-colum-2 {
+    height: 481px;
+}
+}
+@media (max-width: 499px) and (min-width: 450px){
+.padd-colum-2 {
+    height: 440px;
+}
+}
+@media (max-width: 449px) and (min-width: 400px){
+.padd-colum-2 {
+    height: 400px;
+}
+}
+@media (max-width: 399px) and (min-width: 350px){
+.padd-colum-2 {
+    height: 360px;
+}
+}
+@media (max-width: 349px) and (min-width: 200px){
+.padd-colum-2 {
+    height: 320px;
+}
+}
+
+
+@font-face {
+  font-family: "Helvetica Neue Bold" ;
+  src: url("../fonts/helvetica-neue/HelveticaNeue-Bold.ttf");
+}
+@font-face {
+  font-family: "Helvetica Neue light" ;
+  src: url("../fonts/helvetica-neue/HelveticaNeue-light.ttf");
+}
+@font-face {
+  font-family: "Helvetica Neue medium" ;
+  src: url("../fonts/helvetica-neue/HelveticaNeue-medium.ttf");
+}
+.button, .butt-contact{
+  font-family: "Helvetica Neue medium" !important;
+}
+
+h1{
+  font-family: "Helvetica Neue Bold"!important;
+}
+p{
+  font-family: "Helvetica Neue light"!important;
+}

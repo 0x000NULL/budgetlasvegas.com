@@ -1,0 +1,858 @@
+body {
+  padding: 50px 0 0 0;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p, a, li {
+  font-size: 18px;
+}
+a {
+  color: #004674;
+}
+
+a:hover {
+  color: #153347;
+}
+form button {
+  margin: 0 5px;
+}
+
+.form-inline > * {
+    margin:0px 3px;
+}
+
+sup {
+  font-size: 35%;
+  vertical-align: middle;
+}
+
+
+footer {
+  padding: 25px 0;
+  background: #363636;
+  border-top: 1px solid #333;
+}
+
+section {
+  display: block;
+  position: relative;
+  padding: 50px 0;
+}
+
+section h1 {
+  padding-bottom: 50px;
+}
+
+section h2 {
+  font-weight: 300;
+}
+
+section:before { 
+  display: block; 
+  *content: " ";
+  margin-top: -70px; 
+  height: 70px; 
+  visibility: hidden;
+
+}
+
+.fa-6x {
+  font-size: 8em;
+}
+
+.thankYou {
+  height: 500px;
+}
+
+.section-content {
+  padding: 50px 0;
+  color: #333;
+}
+
+.thin {
+  font-weight: 200;
+}
+
+
+.description {
+  padding: 0 50px;
+}
+
+.description p {
+  line-height: 20px;
+  color: #666;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 1000;
+}
+
+.top {
+  margin-top:0;
+}
+
+.quote-banner {
+  padding: 30px 0;
+  margin: 50px 0;
+  background: url('../../images/team2.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  position: relative;
+  border-top: 1px solid #eee;
+
+}
+
+.quote {
+  margin-top: 150px;
+  z-index: 500;
+  position: relative;
+}
+
+.quote p {
+  font-size: 3.3em;
+  font-weight: bold;
+}
+
+
+.banner-layer {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/********** NAV **************/
+
+.logo {
+  width: 150px;
+}
+
+.full-width {
+  margin-top: 15px;
+}
+
+.full-width-header {
+  height: 80px;
+}
+
+.navbar-header {
+  float: left;
+  padding: 0px;
+  text-align: center;
+}
+
+.navbar-light {
+  background: #fff;
+  -webkit-box-shadow: 0 0px 3px 0px #333;
+  -moz-box-shadow: 0 0px 3px 0px #333;
+  box-shadow: 0 0px 3px 0px #333;
+}
+
+.mobile-nav {
+  margin-top: -50px;
+  margin-bottom: 0px;
+  right: 0;
+  left: 0;
+}
+
+.nav.navbar-nav a {
+  font-size: 20px;
+  color: #333;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  margin-top: 0px;
+}
+
+
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: transparent;
+color: #333;
+}
+
+
+
+@media (max-width:767px) {
+
+  img.logo {
+    width: 150px;
+  }
+
+  .navbar-brand {
+    float: left;
+    padding: 0px;
+  }
+
+  .navbar-header {
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+
+  }
+
+  .quote-banner {
+  padding: 30px 0;
+  margin: 50px 0;
+  background: url('../../images/team2.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  position: relative;
+  border-top: 1px solid #eee;
+
+  }
+
+  .quote {
+    margin-top: 30px;
+    z-index: 500;
+    position: relative;
+  }
+
+  .quote p {
+  font-size: 2.3em;
+  font-weight: bold;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width:991px)  {
+
+  img.logo {
+    width: 150px;
+  }
+
+  .navbar-header {
+    height: 85px;
+  }
+
+  .navbar-nav {margin-top: 15px;}
+
+  .navbar-form .btn-mobilio {
+    margin-top: 10px !important;
+  }
+}
+
+.btn-gr {
+  background: #3CB5A6;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+.navbar-form .btn-gr {
+  margin-top: -3px;
+}
+
+.btn-gr:hover {
+  background: #329C8F;
+  color: #fff;
+
+}
+
+.phone {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
+  color: #004674;
+}
+
+
+.nav-pills>li>a:hover {
+  background-color: #eee;
+}
+
+.nav-pills>li.active>a {
+  background-color: #004674;
+}
+
+.nav-pills>li.active>a:hover {
+  background-color: #ccc;
+}
+
+
+/********** RESERVE BAR **************/
+
+.reservebar {
+  border-top: 1px solid #ccc;
+  background: #eee;
+  padding: 10px 0;
+  z-index: 1000;
+
+}
+
+.reservebar-fixed-top {
+  top: 80px;
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+
+.form-wrapper.affix {
+  position: fixed;
+  z-index: 1500;
+}
+
+
+
+/********** HERO **************/
+
+#hero {
+  padding-bottom: 30px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#hero h1 {
+  font-size: 46px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  margin-top: 350px;
+}
+
+.home {
+  background: url("../../images/Home_Forbes_2020.jpg") top center no-repeat ;
+  height: 500px;
+}
+
+
+
+
+.fourofour {
+  background: url("../../images/fleet.png") center center no-repeat;
+  height: 500px;
+  color: #fff;
+}
+
+.fourofour a {
+  color: #;
+}
+
+.about {
+  height: 250px;
+}
+
+
+.career {
+  background: url("../../images/career.jpg") center center no-repeat;
+}
+
+.news {
+  background: url("../../images/career.jpg") center center no-repeat;
+}
+
+.about {
+  background: url("../../images/about.jpg") center center no-repeat;
+   height: 500px;
+}
+
+.intro {
+  margin-top: 35px;
+}
+
+.quote-right {
+  padding-left: 30px;
+  border-left: 1px solid #eee;
+  font-style: italic;
+}
+
+.quote-left {
+  padding-right: 30px;
+  border-right: 1px solid #eee;
+  font-style: italic;
+}
+
+.quote-center {
+  padding: 0 30px;
+  font-style: italic;
+}
+
+
+/* iPhone and smaller screens (portrait and landscape) ----------- */
+@media (max-width:767px) {
+  input {
+    margin: 0 0;
+  } 
+  #hero {
+    display:block;
+    z-index:1;
+    min-width:100%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:0px;
+  }
+
+  .home {
+/*    background: url("../../images/Home_bg.jpg") center center no-repeat;*/
+	background: url("../../images/Home_Forbes_2020.jpg") center center no-repeat;
+	
+    height: 50px;
+  }
+
+
+
+  .career {
+    background: url("../../images/career.jpg") center center no-repeat;
+  }
+
+
+  #hero h1 {
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+  .intro-content {
+    margin-top: 50px !important;
+    text-align: center;
+  }
+
+  .video-wrapper {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .intro {
+    margin-top: 0px;
+  }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) and (max-width : 1024px) {
+    input {
+      margin: 0 0;
+    } 
+
+    #hero {
+      display:block;
+      z-index:1;
+      min-width:100%;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top: 0px;
+      min-height: 600px;
+    }
+    
+    .intro {
+    margin-top: 0px;
+    }
+}
+
+.home>.container>.intro-content {
+  margin-top: 150px;
+  color: #fff;
+}
+
+.page>.container>.intro-content {
+  margin-top: 50px;
+  color: #fff;
+}
+
+.location>.container>.intro-content {
+  margin-top: 150px;
+  color: #fff;
+}
+
+.content {
+  margin-top:80px;
+  color: #333;
+}
+
+/************* HOME SEARCH *************/
+
+.form-wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 5px;
+  border-radius: 5px;
+  float: left;
+}
+
+/************* SEARCH RESULTS *************/
+
+.carname {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 230px;
+  text-transform: capitalize;
+}
+
+
+.navbar-search {
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.navbar.navbar-search.navbar-fixed-top {
+  top: 81px;
+}
+
+.panel.panel-default.search-row {
+  margin-bottom: 50px;
+}
+
+
+/************* RESERVE THUMBNAILS *************/
+
+.fleet-reserve {
+  display: block;
+  width: 70%;
+}
+
+.fleet-brand-name {
+  width: 85%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin-top: 6px;
+}
+
+.fleet-book {
+  position: absolute;
+  right: 20px;
+  margin-top: 6px;
+}
+
+.panel-footer h2 {
+  margin: 0;
+}
+
+/************* WHY GO RENTALS *************/
+
+.whygr {
+  background: url("../../images/fleet.png") no-repeat center center;
+  background-size: cover;
+  color: #eee;
+}
+
+.whygr p {
+  padding: 20px;
+}
+
+/************* ABOUT SECTION *************/
+
+.news-item {
+  min-height: 100px;
+  padding: 20px;
+
+}
+
+.news-item:hover {
+  background: #eee;
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in-;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+
+
+
+/************* FOOTER *************/
+
+.footer {
+  color: #eee;
+  bottom:0;
+
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  /*background: #eee;*/
+  background: #000;
+}
+
+
+.navbar-toggle {
+position: relative;
+float: right;
+margin-right: -15px;
+padding: 9px 10px;
+margin-top: 8px;
+margin-bottom: 8px;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+border: 1px solid #FFF;
+border-radius: 4px;
+}
+
+.footer_smile {
+  background: url("../../images/footer_smile.html") no-repeat center center;
+  width: 100%;
+  height: 100px;
+  margin-top: -70px;
+  display: block;
+  background-size: cover;
+}
+
+.footer hr {
+  border-top: 1px solid #666;
+}
+
+.footer li a {
+  line-height: 20px;
+  color: #9B9B9B;
+  font-size: 14px;
+}
+
+.nav.navbar-nav a button {
+  margin: -10px;
+}
+
+/************* LOCATION ********************/
+
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+
+/************* CAR AND LOCATION ********************/
+
+.carandlocation {
+  background: #f7f7f7;
+  margin-top: 30px;
+}
+
+.search {
+  background: #f7f7f7;
+  margin-top: 81px;
+}
+
+.cta-box {
+  background: #fff;
+}
+
+.cta-call {
+}
+
+.cta-form {
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+
+.cta-footer {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.cta-call h2 {
+  margin-top: 10px;
+  color: #FFA300;
+}
+
+.slide-wrapper {
+  background: #fff;
+  padding: 0px;
+}
+
+.thumbnail-wrapper {
+  height: 100%;
+  padding: 0px;
+}
+
+
+h1.listing-title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.panel img {
+  width: 100%;
+}
+
+
+.sidebar.affix {
+  position: fixed;
+}
+
+.sidebar.affix-bottom {
+  position: absolute;
+}
+
+.cta-fixed.navbar-inverse {
+  border: 0px;
+  border-color: none;
+  padding-top: 15px;
+} 
+
+.cta-fixed h4{
+  margin-top: 0px;
+  color: white;
+
+}
+
+select.cap {
+  text-transform: capitalize;
+} 
+
+.input-daterange input {
+  text-align: left;
+}
+
+a.bookcar:hover {
+  text-decoration: none;
+}
+
+/************* ROYAL SLIDER *************/
+
+.royalSlider {
+  width: 100%;
+  height: 300px;
+}
+
+.rsDefault .rsThumbsHor {
+width: 100%;
+height: 72px;
+padding-top: 10px;
+}
+
+.rsDefault .rsThumbs {
+background: #fff;
+color: #FFF;
+}
+
+.rsDefault .rsThumb.rsNavSelected {
+background: #333;
+}
+/************* PARSLEY FORM VALIDATION *************/
+
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in-;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+h5.carlocation > a {
+	height: 50px;
+}
+
+@media (max-width: 767px)
+{
+	.form-wrapper {
+		float: none;		
+	}
+	.form-group-caa {
+		margin-bottom: 5px;
+	}
+}
+
+
+@media (min-width: 768px)
+{
+/********** HERO **************/
+
+	#hero-caa {
+		padding-bottom: 30px;
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	
+	}
+	
+	#hero-caa h1 {
+	  font-size: 46px;
+	  font-weight: 500;
+	  color: #fff;
+	  text-shadow: 1px 1px 1px #333;
+	  margin-top: 350px;
+	}
+	
+
+	.home-caa {
+		background: url("../../images/Home_Forbes_2020.jpg") top center no-repeat ;
+	  	height: 500px;
+	}
+
+	.home-caa>.container>.intro-content {
+		margin-top: 150px;
+	  	color: #fff;
+	}
+}
+

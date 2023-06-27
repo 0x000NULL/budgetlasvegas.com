@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.gorentals.com	TRUE	/	FALSE	1999999999	PHPSESSID	e11db591565c682d1ab3ed87d2fa9395
+www.gorentals.com	TRUE	/	FALSE	1999999999	ci_session	ff5b5c913ff104828be2bc8b60fbdda6b48ee13f
+

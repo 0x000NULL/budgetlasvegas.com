@@ -1,0 +1,155 @@
+.cleanslate.gfs-popup {
+    display: flex !important;
+    width: calc(100% - 20px) !important;
+    max-width: 325px !important;
+    height: 80px !important;
+    border-radius: 12px !important;
+    border: 1px solid #ddd !important;
+    background: #fff !important;
+    overflow: hidden !important;
+    font-family: "Open Sans", sans-serif !important;
+    color: #404040 !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    left: 20px !important;
+    opacity: 1 !important;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.3s ease-in !important;
+    z-index: 1000000 !important;
+}
+.cleanslate.gfs-popup a {
+    color: #0396a6 !important;
+    text-decoration: none !important;
+}
+.cleanslate.gfs-popup a:hover {
+    text-decoration: underline !important;
+}
+.cleanslate .gfs-popup__review-icon-container {
+    width: 80px !important;
+    float: left !important;
+    height: 100% !important;
+    border-right: 1px solid #ddd !important;
+    box-sizing: border-box !important;
+    background: linear-gradient(to bottom, #fefefe 0, #f2f2f2 100%) !important;
+    position: relative !important;
+}
+.cleanslate .gfs-popup__review-icon {
+    max-width: 40px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: inline-block !important;
+    max-height: 108px !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+.cleanslate .gfs-popup__content {
+    flex: 1 !important;
+    float: left !important;
+    padding: 12px 16px !important;
+    box-sizing: border-box !important;
+    font-size: 11px !important;
+}
+.cleanslate .gfs-popup__stars {
+    list-style-type: none !important;
+    margin: 0 0 0 -2px !important;
+    padding: 0 0 1px 0 !important;
+}
+.cleanslate .gfs-popup__stars {
+    height: 25px !important;
+}
+.cleanslate .gfs-popup__stars li {
+    display: inline !important;
+    margin-right: -3px !important;
+    color: #f6b702 !important;
+}
+.cleanslate .gfs-popup__stars li .facebook-recommends-icon {
+    margin-left: 2px !important;
+    width: 22px !important;
+    height: auto !important;
+}
+.cleanslate .gfs-popup__review-meta {
+    padding-bottom: 3px !important;
+}
+.cleanslate .gfs-popup__content:hover .gfs-popup__close,
+.cleanslate .gfs-popup__review-meta,
+.cleanslate .gfs-popup__review-timestamp {
+    display: block !important;
+}
+.cleanslate .gfs-popup__review-meta strong {
+    font-weight: 600 !important;
+}
+.cleanslate .gfs-popup__review-timestamp {
+    color: #a6a6a6 !important;
+}
+.cleanslate .gfs-popup__close {
+    position: absolute !important;
+    top: -2px !important;
+    right: -2px !important;
+    text-align: center !important;
+    display: none !important;
+    padding: 12px !important;
+}
+.cleanslate .gfs-popup__close i {
+    color: #ddd !important;
+    padding: 2px !important;
+    /*
+    border: 1px solid #ddd !important;
+    border-radius: 50% !important;
+    */
+}
+.cleanslate .gfs-popup__close:hover i {
+    color: #0396a6 !important;
+    border-color: #0396a6 !important;
+}
+.cleanslate a.gfs-popup__close:hover {
+    text-decoration: none !important;
+}
+.cleanslate.is-closed {
+    left: -500px !important;
+    opacity: 0 !important;
+}
+.cleanslate.has-click-through * {
+    cursor: pointer !important;
+}
+.cleanslate .gfs-popup__content *,
+.cleanslate .gfs-popup__review-icon-container * {
+    opacity: 1 !important;
+    transition: opacity 0.3s linear !important;
+}
+.cleanslate.review-content-is-hidden .gfs-popup__content *,
+.cleanslate.review-content-is-hidden .gfs-popup__review-icon-container * {
+    opacity: 0 !important;
+    transition: opacity 0.3s linear !important;
+}
+.cleanslate .material-icons.md-14 {
+    font-size: 14px !important;
+}
+.cleanslate .material-icons.md-24 {
+    font-size: 24px !important;
+}
+@media (max-width: 480px) {
+    .cleanslate.gfs-popup.is-closed {
+        left: 10px !important;
+        bottom: -200px !important;
+        opacity: 0 !important;
+    }
+    .cleanslate.gfs-popup {
+        left: 10px !important;
+        bottom: 10px !important;
+        max-width: calc(100% - 20px) !important;
+    }
+    .cleanslate.gfs-popup.is-hidden-mobile {
+        display: none !important;
+    }
+    .cleanslate.is-top-on-mobile.gfs-popup {
+        top: 10px !important;
+    }
+    .cleanslate.is-top-on-mobile.is-closed {
+        top: -200px !important;
+    }
+    .cleanslate .gfs-popup__close {
+        display: block !important;
+    }
+}
